@@ -1,9 +1,9 @@
 body {
 	padding: 1em;
 	padding-top: .5em;
-	background-image: url("../img/boardpicture1.jpg");
+	background-image: url("../img/boardpicture1.png");
 	background-size: cover;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,14 +17,16 @@ p {
 	width: 100%;
 }
 .title-holder {
-	width: 100%;
+	width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
 }
 
 .game-screen {
-	background-color: #eedfda;
+	background-color: RGBA(241, 222, 217, 0.7);
 	border-radius: 1em;
-	padding: 1em;
-	margin: 0 4em;
+	padding: 1%;
+	margin: 5%;
 	-webkit-box-shadow: 6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
 	-moz-box-shadow:    6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
 	box-shadow:         6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
@@ -81,6 +83,7 @@ input:focus { outline:none; }
 
 .directions {
 	font-size: 20pt;
+  padding: 5%;
 }
 
 .btn {
