@@ -103,7 +103,6 @@ input:focus
 
 .btn:hover {
 	background-color: #e841a4;
-  border: 1px solid #e841a4;
 	text-decoration: none;
   color: rgba(246, 246, 246, 1);
   transition: .25s ease;
