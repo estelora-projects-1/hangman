@@ -86,9 +86,6 @@ function onUserGuess() {
   counter = --counter;
   guessesLeft = counter;
   setGuessesLeft(guessesLeft);
-
-
-
 }
 
 function isGuessCorrect(userLetter) {
