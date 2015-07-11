@@ -1,6 +1,4 @@
 body {
-	padding: 1em;
-	padding-top: .5em;
 	background-image: url("../img/boardpicture1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -46,6 +44,13 @@ input
   -webkit-box-shadow: 6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
   -moz-box-shadow:    6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
   box-shadow:         6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(2, 166, 238, 1);
+  margin: 0 !important;
 }
 
 input:focus
