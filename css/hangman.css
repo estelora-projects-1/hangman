@@ -55,8 +55,8 @@ input
   bottom: 0;
   width: 100%;
   -webkit-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1));
-  -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
-  box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
+-moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
+box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
 }
 
 input:focus
@@ -66,6 +66,8 @@ input:focus
 
 .title {
   width: 100%;
+  max-height: 150px;
+  max-width: 803px;
 }
 
 .content {
@@ -76,7 +78,7 @@ input:focus
   margin-top: 1%;
   margin-left: 26%;
   width: 40%;
-  max-height: 50%;
+  max-height: 280px;
   -webkit-box-shadow: 6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
   -moz-box-shadow:    6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
   box-shadow:         6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
@@ -146,6 +148,56 @@ input:focus
 
 
 /*------------------------------------*\
+    #FOOTER ELEMENTS
+\*------------------------------------*/
+
+
+.footer-fox {
+  width: 50px;
+  height: 57%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: white;
+  padding: 0.5%;
+  border-radius: 51%;
+  border: 2px solid #02A6EE;
+
+}
+.footer-fox:hover {
+  -webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+  transition: 35ms;
+}
+.contact-info {
+  text-decoration: none;
+  color: black;
+  margin-left: 1%;
+}
+
+.contact-copy {
+  font-size: 17px;
+}
+
+.spacer {
+  margin-top: 2.5%;
+}
+
+.git {
+  margin-left: 1%;
+}
+
+.git:hover {
+  text-shadow: 1px 1px 1px rgba(0, 166, 238, 1);
+  transition: 35ms;
+}
+
+.fa-2x {
+  font-size: 1.75em;
+}
+
+/*------------------------------------*\
     #MEDIA QUERIES
 \*------------------------------------*/
 
@@ -169,15 +221,15 @@ input:focus
 }
 
 @media all and (max-width: 950px) {
-  .footer {
-    height: 75px;
-    width: 100%;
-    background-color: rgba(245, 210, 204, 0.95);
-    margin: 0 !important;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    -webkit-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1));
+.footer {
+  height: 75px;
+  width: 100%;
+  background-color: rgba(245, 210, 204, 0.95);
+  margin: 0 !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1));
   -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
   box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
   }
@@ -193,8 +245,8 @@ input:focus
     bottom: 0;
     width: 100%;
     -webkit-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1));
-  -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
-  box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
+-moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
+box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
 }
 .content {
   border-radius: 18px;
@@ -253,19 +305,19 @@ input:focus
     bottom: 0;
     width: 100%;
     -webkit-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1));
-  -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
-  box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
-  }
-  .game-screen {
-    margin: 3%;
-  }
-  .directions {
-    font-size: 14pt;
-    padding: 5%;
-  }
-  .btn {
-    margin-left: 3%;
-  }
+    -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
+    box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
+}
+.game-screen {
+  margin: 3%;
+}
+.directions {
+  font-size: 14pt;
+  padding: 5%;
+}
+.btn {
+  margin-left: 3%;
+}
 }
 
 
