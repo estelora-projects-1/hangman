@@ -38,8 +38,8 @@ input
 .game-screen {
   background-color: rgba(241, 222, 217, 0.7);
   border-radius: 15px;
-    margin: 1% 2% 0;
-    padding: 1% 0 0.5%;
+  margin: 4% 2% 0;
+  padding: 1% 0 0.5%;
   max-height: 500px;
   -webkit-box-shadow: 6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
   -moz-box-shadow:    6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
