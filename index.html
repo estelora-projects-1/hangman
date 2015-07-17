@@ -50,8 +50,10 @@
             Chances left: <span class="turn-count">8</span>
           </span>
           <span class="displayWord "/>
-          <input class="user-letter" type = "text" maxlength ="1">
-          <button class= "button btn"onclick ="onUserGuess()">Guess?</button>
+          <form class="user-letter">
+            <input class="user-letter" type = "text" maxlength ="1">
+            <input type="submit" value="Enter Guess" class= "button btn"onclick ="onUserGuess()">
+          </form>
           <span class="dash-display"/>
         </div> 
       </div>

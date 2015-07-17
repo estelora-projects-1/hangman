@@ -100,18 +100,22 @@ input:focus
 }
 
 .btn {
-
+  height: 5.5%;
+  width: 29.5%;
 	border-radius: 6px;
 	-webkit-box-shadow: 1px 1px 4px lightslategray;
 	-moz-box-shadow: 1px 1px 4px lightslategray;
 	box-shadow: 1px 1px 4px lightslategray;
 	font-family: 'Montserrat', sans-serif;
 	color: #000000;
-	font-size: 20px;
+	font-size: 18px !important;
 	background: #ffd212;
-	padding: 10px 20px 10px 20px;
 	text-decoration: none;
+  text-align: center;
 	margin-top: 1%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-right: 2%;
 }
 
 .btn:hover {
@@ -217,6 +221,11 @@ input:focus
     margin-left: 10%;
   }
 }
+  .btn {
+    width: 37%;
+    font-size: 18px !important;
+    padding-right: 5%;
+  }
 
 @media all and (max-width: 950px) {
   .footer {
@@ -230,16 +239,20 @@ input:focus
     -webkit-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1));
     -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
     box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
-    }
   }
-
+  .btn {
+    width: 50%;
+    font-size: 18px !important;
+    padding-right: 7%
+  }
   .footer-fox{
-    width: 5%;
+    width: 4.5%;
     height: auto;
     float: left;
-    margin-top: .8%;
+    margin-top: .5%;
     margin-left: 1%;
   }
+}
 
   @media all and (max-width: 750px) {
     .footer {
@@ -254,14 +267,17 @@ input:focus
       -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
       box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
   }
-
- .footer-fox{
+    .btn {
+    width: 60%;
+    font-size: 16px !important;
+    padding-right: 7%;
+  }
+  .footer-fox{
     width: 6%;
     height: auto;
     margin-top: 1%;
     margin-left: 1%;
   }
-
   .content {
     border-radius: 18px;
     padding: 3%;
@@ -305,6 +321,11 @@ input:focus
     margin-left: 18%;
     width: 60%;
   }
+  .btn {
+    width: 50%;
+    font-size: 14px !important;
+    padding-right: 7%;
+  }
   .footer-fox {
   width: 5%;
   height: auto;
@@ -329,7 +350,7 @@ input:focus
     margin-top: 5%;
     margin-left: 18%;
     width: 60%;
-    padding-bottom: 6%;
+    padding-bottom: 2%;
   }
   .footer {
     height: 60px;
@@ -349,16 +370,17 @@ input:focus
     margin-top: 2%;
     margin-left: 2.5%;
   }
-
+  .btn {
+    width: 66%;
+    padding-right: 7%;
+    font-size: 12px !important;
+  }
   .game-screen {
     margin: 3%;
   }
   .directions {
     font-size: 14pt;
     padding: 5%;
-  }
-  .btn {
-    margin-left: 3%;
   }
 }
 
