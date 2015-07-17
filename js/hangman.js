@@ -45,7 +45,7 @@ var  randomWord = randomWordIndex();
 randomWord.toLowercase;
 
  //Check the random word in console.
- console.log(randomWord);
+ //console.log(randomWord);
  
 
 //Split randomWord for display
