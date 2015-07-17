@@ -155,13 +155,15 @@ input:focus
 
 
 .footer-fox {
-  width: 100%;
+  width: 5%;
   height: auto;
   float: left;
-  margin-top: 1%;
-  margin-left: 1%;
+  margin-top: .75%;
+  margin-left: .75%;
+  max-height: 80px;
+  max-width: 80px;
   background-color: white;
-  padding: 0.5%;
+  padding: 0.25%;
   border-radius: 51%;
   border: 2px solid #02A6EE;
 
@@ -216,6 +218,18 @@ input:focus
     -moz-box-shadow: 6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
     box-shadow: 6px 6px 5px 0px rgba(0 , 0, 0, 0.8);
   }
+  .footer-fox {
+    width: 4%;
+  height: auto;
+  float: left;
+  margin-top: 1%;
+  margin-left: 1%;
+  max-height: 75px;
+  max-width: 75px;
+  background-color: white;
+  padding: 0.5%;
+
+}
   .title-holder {
     width: 80%;
     margin-left: 10%;
@@ -249,35 +263,37 @@ input:focus
     width: 4.5%;
     height: auto;
     float: left;
+    padding: 0.5%;
     margin-top: .5%;
     margin-left: 1%;
   }
 }
 
-  @media all and (max-width: 750px) {
-    .footer {
-      height: 70px;
-      width: 100%;
-      background-color: rgba(245, 210, 204, 0.95);
-      margin: 0 !important;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      -webkit-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1));
-      -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
-      box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
+@media all and (max-width: 750px) {
+  .footer {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(245, 210, 204, 0.95);
+    margin: 0 !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    -webkit-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1));
+    -moz-box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
+    box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
   }
-    .btn {
+  .btn {
     width: 60%;
     font-size: 16px !important;
     padding-right: 7%;
   }
-  .footer-fox{
+  .footer-fox {
     width: 6%;
     height: auto;
     margin-top: 1%;
     margin-left: 1%;
   }
+
   .content {
     border-radius: 18px;
     padding: 3%;
@@ -305,9 +321,9 @@ input:focus
     font-size: 17px;
   }
   .footer-fox {
-    width: 6%;
+    width: 7.5%;
     height: auto;
-    margin-top: 1.2%;
+    margin-top: 1%;
     margin-left: 1.5%;
   }
 }
@@ -327,10 +343,10 @@ input:focus
     padding-right: 7%;
   }
   .footer-fox {
-  width: 5%;
-  height: auto;
-  margin-top: 1.7%;
-  margin-left: 1.5%;
+    width: 9%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 1.5%;
   }
   .spacer {
   margin-top: 4.5%;
@@ -365,7 +381,7 @@ input:focus
     box-shadow: 0px -3px 5px 0.5px rgba(0, 0, 0, 1);
   }
   .footer-fox {
-    width: 12%;
+    width: 10%;
     height: auto;
     margin-top: 2%;
     margin-left: 2.5%;
