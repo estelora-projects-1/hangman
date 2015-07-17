@@ -151,8 +151,8 @@ input:focus
 
 
 .footer-fox {
-  width: 6%;
-  height: 57%;
+  width: 100%;
+  height: auto;
   float: left;
   margin-top: 1%;
   margin-left: 1%;
@@ -235,7 +235,7 @@ input:focus
 
   .footer-fox{
     width: 5%;
-    height: 61%;
+    height: auto;
     float: left;
     margin-top: .8%;
     margin-left: 1%;
@@ -257,7 +257,7 @@ input:focus
 
  .footer-fox{
     width: 6%;
-    height: 64%;
+    height: auto;
     margin-top: 1%;
     margin-left: 1%;
   }
@@ -290,7 +290,7 @@ input:focus
   }
   .footer-fox {
     width: 6%;
-    height: 60%;
+    height: auto;
     margin-top: 1.2%;
     margin-left: 1.5%;
   }
@@ -305,10 +305,9 @@ input:focus
     margin-left: 18%;
     width: 60%;
   }
-
   .footer-fox {
-  width: 7%;
-  height: 55%;
+  width: 5%;
+  height: auto;
   margin-top: 1.7%;
   margin-left: 1.5%;
   }
@@ -320,8 +319,7 @@ input:focus
   }
   .contact-copy {
   font-size: 12px;
-}
-
+  }
 }
 
 @media all and (max-width: 400px) {
@@ -347,7 +345,7 @@ input:focus
   }
   .footer-fox {
     width: 12%;
-    height: 69%;
+    height: auto;
     margin-top: 2%;
     margin-left: 2.5%;
   }
