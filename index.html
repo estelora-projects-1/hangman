@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   
   <head>
@@ -54,6 +54,91 @@
             <input class="user-letter" type = "text" maxlength ="1">
             <input type="submit" value="Enter Guess" class= "button btn"onclick ="onUserGuess()">
           </form>
+          <span class="dash-display"/>
+        </div> 
+      </div>
+
+    </div>
+
+    <div class="footer">
+
+
+      <a href="https://lejoslin.com"><img src="img/fox-head.png" alt="fox-body" class="footer-fox"/></a>
+  
+      <div class="spacer"></div> 
+        
+      <span class="git">
+
+        <a href= "https://github.com/estelora" class="contact-info">
+          <i class="fa fa-github-square fa-2x contact-icon"></i>
+          <span class="contact-copy">estelora</span>
+        </a>
+        
+      </span>
+
+    </div>
+  
+    <script src="js/hangman.js"></script>
+
+  </body>
+
+
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="http://fonts.googleapis.com/css?family=Cookie|Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/hangman.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>Mousetrap Words</title>
+  </head>
+
+  <body>
+
+    <div class="game-screen">
+        
+      <div class= "title-holder">
+        <img class="title center hvr-sink" src="img/mouse-title.png" alt="title">
+      </div>
+
+      <div class="content text-center center">
+      
+       <div class="game-display">
+        <p class ="directions">
+          Solve the puzzle or in the trap you go!
+        </p>
+        <h2 class= "hidden-word-display turns-remaining"></h2> 
+       </div>
+
+        <div class="game-info">
+          <span class="turns-remaining">
+            Chances left: <span class="turn-count">8</span>
+          </span>
+          <span class="displayWord "/>
+          <input class="user-letter" type = "text" maxlength ="1">
+          <button class= "button btn"onclick ="onUserGuess()">Guess?</button>
           <span class="dash-display"/>
         </div> 
       </div>
