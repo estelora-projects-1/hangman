@@ -44,9 +44,9 @@ function randomWordIndex() {
 var  randomWord = randomWordIndex();
 randomWord.toLowercase;
 
-/* Check the random word in console.
- * console.log(randomWord);
- */
+ //Check the random word in console.
+ console.log(randomWord);
+ 
 
 //Split randomWord for display
 var displayWord = randomWord.split('');
