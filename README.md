@@ -2,5 +2,5 @@
 
 ###Basic Hangman word game with a twist on the theme
 
-- Javascript, HTML, CSS
+- JavaScript, HTML, CSS
 - Responsive Design
